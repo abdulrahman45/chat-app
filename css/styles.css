@@ -32,8 +32,8 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 .mWrapper{
-    width: 17rem;
-    height: 32rem;
+    width: 18rem;
+    height: 34rem;
     top: 9rem;
     left: 22rem;
     position: relative;
@@ -66,7 +66,7 @@ body {
     border-top-left-radius: 14rem;
     position: absolute;
     bottom:0;
-    right: -12rem;
+    right: -20rem;
     float: right;
     background: linear-gradient(30deg, var(--light-violet) 20%, var(--moderate-violet) 60%, var(--light-magenta) 100%);
     opacity: 0.1;
@@ -98,6 +98,8 @@ body {
     position: absolute;
     top: 2.2rem;
     left: 1rem;
+    margin: 0.3rem;
+    font-size: 0.3rem;
 }
 .avatar{
     display: block;
@@ -110,10 +112,10 @@ body {
     display: inline-block;
 }
 .profile h1{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 .profile span{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: var(--pale-violet);
 }
 .arrow-left {
@@ -128,9 +130,11 @@ body {
     position: absolute;
     right: 1rem;
 }
-.dots::after{
-    content: '\2807';
-    font-size: 1.6rem;       
+.dots {
+    width: 2rem;
+    height: 1rem;
+    background-image: radial-gradient(circle, white 1px, transparent 2px);
+    background-size: 100% 33.33%;
 }
 .chat{
     position: absolute;
@@ -141,4 +145,39 @@ body {
     border: 0 solid white;
     border-radius: 2rem;
     
+}
+.maessage{
+    padding: 0.6rem;
+    margin: 0.6rem;
+    font-size: 0.7rem;
+    max-width: 10rem;
+    border-radius: 1rem;
+}
+/*left messages*/
+.lf{
+    color: var(--moderate-violet);
+    background-color: hsla(275.9, 100%, 81%, 0.29);
+    border-bottom-left-radius: 0.3rem;
+    margin-left: 1rem;
+}
+.dogs{
+    margin: 0.3rem 0;
+    width: 100%;
+    margin-right: 1rem;
+    float: right;
+}
+.dogs img{
+    float: right;
+    margin: 0 2px;
+    width: 3.4rem;
+    border-radius: 1rem;
+}
+/*left messages*/
+.rm{
+    float: right;
+    margin-top: 0.3rem;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgb(198, 190, 190);
+    margin-right: 1rem;
+    border-bottom-right-radius: 0.3rem;
 }
