@@ -76,7 +76,7 @@ body {
     border-top-left-radius: 14rem;
     position: absolute;
     bottom:0;
-    right: -20rem;
+    right: -14rem;
     float: right;
     background: linear-gradient(30deg, var(--light-violet) 20%, var(--moderate-violet) 60%, var(--light-magenta) 100%);
     opacity: 0.1;
